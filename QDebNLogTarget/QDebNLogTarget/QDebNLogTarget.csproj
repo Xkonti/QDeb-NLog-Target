@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net452;net46;net461;net472;netstandard2.0;netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+        <LangVersion>8</LangVersion>
+        <Nullable>enable</Nullable>
+        <PackageVersion>0.1.0</PackageVersion>
+        <Title>QDeb NLog target</Title>
+        <Authors>Beniamin Dudek (Xkonti)</Authors>
+        <Description>NLog target for QDeb application.</Description>
+        <PackageProjectUrl>https://github.com/Xkonti/QDeb-NLog-Target</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Xkonti/QDeb-NLog-Target</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageTags>debug nlog qdeb target logger log</PackageTags>
+        <PackageId>QDeb_NLog_Target</PackageId>
+        <NeutralLanguage>en</NeutralLanguage>
+    </PropertyGroup>
+
+</Project>
