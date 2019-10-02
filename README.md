@@ -2,6 +2,34 @@
 
 The NLog target for the QDeb application.
 
+## Installation
+
+You can get the NuGet package from [nuget.org](https://www.nuget.org/packages/QDeb_NLog_Target/).
+
+You can install the NuGet package via the package manager:
+
+```
+Install-Package QDeb_NLog_Target -Version 0.1.0
+```
+
+You can install the NuGet package via .NET CLI:
+
+```
+dotnet add package QDeb_NLog_Target --version 0.1.0
+```
+
+You can add a reference to the NuGet package:
+
+```
+<PackageReference Include="QDeb_NLog_Target" Version="0.1.0" />
+```
+
+You can add a reference to the NuGet package via Paket CLI:
+
+```
+paket add QDeb_NLog_Target --version 0.1.0
+```
+
 ## Usage:
 
 Register just like any other NLog target and provide the QDeb url:
